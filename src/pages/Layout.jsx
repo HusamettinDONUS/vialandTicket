@@ -25,11 +25,6 @@ function Layout() {
                 alt="ViaLand Logo"
                 className="img-fluid"
               />
-              <img
-                src="../../public.logo.png"
-                alt="ViaLand Logo"
-                className="img-fluid"
-              />
             </div>
           </div>
         </Link>
