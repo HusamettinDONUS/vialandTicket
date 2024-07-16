@@ -1,0 +1,205 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$border-color: #ced4da;
+
+.ticket-booking {
+  margin-top: 20px;
+
+  .form-title {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $primary-color;
+    i {
+      font-size: 1.5rem;
+      margin: 3px;
+    }
+  }
+
+  form {
+    .form-group {
+      margin-bottom: 1.5rem;
+
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        letter-spacing: 0.7px;
+      }
+
+      .form-control {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid $border-color;
+        border-radius: 0.25rem;
+        box-shadow: none;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+        &:focus {
+          border-color: $primary-color;
+          box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+        }
+      }
+
+      .form-text {
+        display: block;
+        margin-top: 0.25rem;
+        color: $secondary-color;
+      }
+
+      textarea {
+        resize: none;
+        height: 150px;
+      }
+    }
+
+    .form-check {
+      margin-top: 1.5rem;
+
+      .form-check-input {
+        position: absolute;
+        margin-top: 0.3rem;
+        margin-left: -1.25rem;
+        margin-right: -1.25rem;
+        font-size: 20px;
+        box-shadow: none;
+      }
+
+      .form-check-label {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-weight: 400;
+        font-size: 0.875rem;
+
+        a {
+          color: $primary-color;
+          text-decoration: underline;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .btn {
+      width: 100%;
+      padding: 0.75rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      user-select: none;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      background-color: $primary-color;
+      color: #fff;
+      cursor: pointer;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+
+  .card {
+    margin: 75px 50px;
+    padding: 10px;
+    border: 1px solid $border-color;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background: linear-gradient(101.74deg, #fff7aa -7.81%, #b4a312 101.14%);
+    color: #666025;
+
+    .card-img-top {
+      border-radius: 25px;
+    }
+
+    .card-body {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .card-title {
+        margin-bottom: 0.75rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: $primary-color;
+      }
+
+      .card-text {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #212529;
+      }
+
+      .date {
+        color: #ccc;
+      }
+
+      .total-cost {
+        color: #ccc;
+        background-color: #666025;
+        padding: 10px 50px;
+        border-radius: 10px;
+        h4,
+        h2 {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .date-element {
+    background-color: #666025;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+
+    .date-value {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .day {
+        font-size: 32px;
+        font-weight: bold;
+      }
+
+      .month-year {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .month {
+          font-size: 18px;
+        }
+
+        .year {
+          font-size: 18px;
+        }
+      }
+
+      .day-of-week {
+        font-size: 16px;
+        background-color: #ccc;
+        color: #666025;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+}

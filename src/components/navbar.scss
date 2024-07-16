@@ -1,0 +1,20 @@
+.custom-navbar {
+  color: #000;
+  border-bottom: 2px solid #777;
+
+  button {
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+  }
+
+  .active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .nav-link {
+    color: #999;
+  }
+}
