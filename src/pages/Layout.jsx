@@ -20,11 +20,6 @@ function Layout() {
           <div className="row justify-content-center">
             <div className="col-auto">
               <img src="/logo.png" alt="ViaLand Logo" className="img-fluid" />
-              <img
-                src="/public/logo.png"
-                alt="ViaLand Logo"
-                className="img-fluid"
-              />
             </div>
           </div>
         </Link>

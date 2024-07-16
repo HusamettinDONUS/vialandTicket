@@ -27,7 +27,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 60.0,
       priceChild: 60.0,
       details: t("dailyTicketDetails"),
-      image: "/public/theme.png",
+      image: "/theme.png",
     },
     {
       category: "PACKAGES",
@@ -35,7 +35,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 90.0,
       priceChild: 90.0,
       details: t("silverPackageDetails"),
-      image: "/public/silver.png",
+      image: "/silver.png",
     },
     {
       category: "PACKAGES",
@@ -43,7 +43,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 120.0,
       priceChild: 120.0,
       details: t("goldPackageDetails"),
-      image: "/public/gold.png",
+      image: "/gold.png",
     },
     {
       category: "PACKAGES",
@@ -51,7 +51,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 145.0,
       priceChild: 145.0,
       details: t("diamondPackageDetails"),
-      image: "/public/diamond.png",
+      image: "/diamond.png",
     },
     {
       category: "PARKOUR",
@@ -59,7 +59,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 20.0,
       priceChild: 20.0,
       details: t("highRopeParkourDetails"),
-      image: "/public/parkur.jpg",
+      image: "/parkur.jpg",
     },
     {
       category: "PARKOUR",
@@ -67,7 +67,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 15.0,
       priceChild: 15.0,
       details: t("netParkourDetails"),
-      image: "/public/parkur.jpg",
+      image: "/parkur.jpg",
     },
     {
       category: "PARKOUR",
@@ -75,7 +75,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 10.0,
       priceChild: 10.0,
       details: t("netTrampolineDetails"),
-      image: "/public/parkur.jpg",
+      image: "/parkur.jpg",
     },
     {
       category: "PARKOUR",
@@ -83,7 +83,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 10.0,
       priceChild: 10.0,
       details: t("tubbySlideDetails"),
-      image: "/public/parkur.jpg",
+      image: "/parkur.jpg",
     },
     {
       category: "PARKOUR",
@@ -91,7 +91,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 15.0,
       priceChild: 15.0,
       details: t("climbingWallDetails"),
-      image: "/public/parkur.jpg",
+      image: "/parkur.jpg",
     },
     {
       category: "PARKOUR",
@@ -99,7 +99,7 @@ function TicketSelector({ selectedCategory }) {
       priceAdult: 35.0,
       priceChild: 35.0,
       details: t("parkurBundleDetails"),
-      image: "/public/parkur.jpg",
+      image: "/parkur.jpg",
     },
   ];
 
