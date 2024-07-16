@@ -4,6 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 import { TicketContext } from "../App";
 import i18next from "i18next";
 import { useTranslation } from "react-i18next";
+import { logo } from "../../public/logo.png";
 
 function Layout() {
   const { selectedDate, setSelectedDate } = useContext(TicketContext);
@@ -19,11 +20,18 @@ function Layout() {
         <Link to="/">
           <div className="row justify-content-center">
             <div className="col-auto">
+              <img src="/logo.png" alt="ViaLand Logo" className="img-fluid" />
               <img
                 src="/public/logo.png"
                 alt="ViaLand Logo"
                 className="img-fluid"
               />
+              <img
+                src="../../public.logo.png"
+                alt="ViaLand Logo"
+                className="img-fluid"
+              />
+              <img src={logo} alt="ViaLand Logo" className="img-fluid" />
             </div>
           </div>
         </Link>
